@@ -1,0 +1,20 @@
+{
+  "name": "diligene",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "react-native": "^0.19.0",
+    "react-native-fbsdkcore": "file:node_modules/react-native-fbsdkcore",
+    "react-native-fbsdklogin": "file:node_modules/react-native-fbsdklogin"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta8",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  }
+}
